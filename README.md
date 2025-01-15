@@ -39,7 +39,7 @@ Para executar o projeto, basta seguir os passos descritos na seção [Como Acess
 
 1. Clone este repositório em sua máquina local.
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/Julianochagas
    ```
 2. Instale as dependências necessárias utilizando `pip`.
    ```bash
@@ -80,4 +80,16 @@ Para executar o projeto, basta seguir os passos descritos na seção [Como Acess
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou relatar problemas.
+
+## Contato
+
+Para mais informações, dúvidas ou sugestões, entre em contato:
+
+- Nome: Juliano Chagas de Lima
+- E-mail: julianochagaslima@gmail.com
+
 

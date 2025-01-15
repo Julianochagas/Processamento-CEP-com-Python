@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Informações do CEP ${cep}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .assinatura {
+            display: flex;
+            align-items: center;
+        }
+
+        .assinaturaimg {
+            width: 400px;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p><strong>Prezado(a) Cliente,</strong></p>
+        <p>Temos as seguintes informações sobre o seu CEP <strong>${cep}</strong>:</p>
+        <ul>
+            <li><strong>Logradouro:</strong> ${logradouro}</li>
+            <li><strong>Bairro:</strong> ${bairro}</li>
+            <li><strong>Cidade:</strong> ${cidade}</li>
+            <li><strong>Estado:</strong> ${estado}</li>
+        </ul>
+        <p>Esperamos que essas informações sejam úteis para você!</p>
+        <p>Atenciosamente,</p>
+        <br>
+        <div class="assinatura">
+            <a href="https://www.linkedin.com/in/juliano-chagas/"><img src="https://i.im.ge/2025/01/10/zntDb9.Assinatura-Email-Candidato-TRAJETORIA-A-SeniorRoxo-Moderno.png" alt="Juliano Chagas de Lima" border="0"></a>
+        </div>
+    </div>
+</body>
+</html>
